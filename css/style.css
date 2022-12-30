@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&display=swap');
+
 
 header{
     display:flex;
@@ -25,7 +25,7 @@ a{
     display: inline-flex;
     align-items: center;
    font-size: 20px;
-   font-family: "Fira Code", serif;
+   font-family: "Fira Code", sans-serif;
    font-weight: 500;
    text-decoration: none;
    margin-right: 30px;
@@ -47,3 +47,8 @@ a::before{
     padding: 18px 20px;
     margin-right: 0;
 }
+
+#button:hover{
+    transform: scale(1.8);
+}
+
